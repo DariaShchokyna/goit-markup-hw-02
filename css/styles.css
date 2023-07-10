@@ -1,0 +1,73 @@
+/*header*/
+.logo{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo .part_logo{
+    color: #2E2F42;
+}
+.blok,
+.address {
+    list-style-type: none;
+
+}
+
+/*Cекція 1*/
+.name{
+    text-align: center;
+    color:white;
+    background-color: #2E2F42;
+}
+
+/*Секція 2*/
+.descreption{
+    list-style-type: none;
+}
+.descreption li{
+    color: #434455;
+}
+.descreption h3{
+    color: #2E2F42;
+}
+
+/*Секція 3*/
+.doing,
+.team{
+    text-align: center;
+    color: #2E2F42;  
+}
+.images{
+    list-style-type: none;   
+}
+
+/*Ceкция 4*/
+.foursection{
+    background-color: #F4F4FD;
+}
+.people{
+    list-style-type: none;
+    text-align: center;
+}
+.people h3{
+    color: #2E2F42;
+}
+.people p{
+    color: #434455;
+}
+
+/*Footer*/
+.of{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.of .part_of{
+    color: #F4F4FD;
+}
+footer{
+    background-color: #2E2F42;
+}
+footer p {
+    color: #F4F4FD;
+}
