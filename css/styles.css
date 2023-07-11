@@ -12,8 +12,8 @@ body{
 .logo{
     text-decoration: none
     line-height: 1.17;
-    letter-spacing: 0.03em
-    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    font-family: "Raleway", sans-serif
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
@@ -22,10 +22,13 @@ body{
     text-transform: uppercase;
     color: #4D5AE5;
 }
-.logo .part_logo{
+.logo link{
+    text-decoration: none
     color: #2E2F42;
 }
-.blok{
+.list{
+    list-style: none}
+.blank{
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
