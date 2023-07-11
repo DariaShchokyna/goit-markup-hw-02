@@ -86,7 +86,11 @@ body{
 .osnova_button:focus{
     background-color: #404BBF;
 }
-.descreption .descreption_nam{
+.blank_name link:hover,
+.blank_name link:focus{
+color: #404bbf;
+}
+.descreption{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -110,4 +114,62 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:  #2e2f42;
+}
+
+
+.foursection{
+    background-color: #F4F4FD
+}
+.team{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.team_profesion{
+    background-color: #FFFFFF;
+}
+.team_name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.team_paragrafe{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+}
+
+
+
+.end{
+    background-color:  #2e2f42;
+}
+.off{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.off link{
+    text-decoration: none;
+}
+.off .part_off{
+    color: #2e2f42;
+}
+.off .part_off{
+    color:  #f4f4fd;
+}
+.informations{
+    line-height: 1.5;
+    color:  #F4F4FD;
+    letter-spacing: 0.02em;
 }
