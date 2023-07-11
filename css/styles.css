@@ -146,9 +146,17 @@ footer p {
     list-style-type: none;    
 }
 .photo h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
     color: #2E2F42;
 }
 .photo p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
     color: #434455;
 }
 .main_buttons{
@@ -156,11 +164,19 @@ footer p {
     text-align: center;
 }
 .buttons{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
     color: #4D5AE5;
     background-color: #E7E9FC
     ;
 } 
 .part_buttons{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
     color: #FFFFFF;
     background-color: #404BBF; 
 }
