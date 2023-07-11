@@ -1,220 +1,64 @@
-:root {
-    --main-color: #434455;
-}
-
 body{
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --brand-color: #434455;
 }
 
-/*header*/
+
+
+
 .logo{
-    text-decoration: none
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    font-family: "Raleway", sans-serif
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    width: 115px;
-    line-height: 24px;
     text-transform: uppercase;
-    color: #4D5AE5;
+    color: #4d5ae5;
 }
 .logo link{
-    font-family: "Raleway", sans-serif
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    text-decoration: none
-    color: #2E2F42;
+    text-decoration: none;
 }
-.list{
-    list-style: none}
-.line{
-    text-decoration: none
+.logo .part_logo{
+    color: #2e2f42;
 }
 .blank{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 2%;
-        width: 115px;
-        line-height: 24px;
-        list-style-type: none;
-    }
-.blank-list.list{
-    color: #2e2f42;
-    text-decoration:none
+    list-style: none
 }
-.blank-list.list:hover{
-    color: #404bbf 
-}
-.blank-list.list:focus{
-    color: #404bbf;
-}
-.address {
-    font-weight: 400;
-    font-size: normal;
-    line-height: 24px;
-    letter-spacing: 2%;
-    list-style-type: none;
-}
-
-/*Cекція 1*/
-.name{
-    text-align: center;
-        background-color: #2E2F42;
-        color: #FFFFFF;
-}
-.name h1{
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
-    width: 496px;
-    height: 120px;
-    top: 260px;
-    left: 472px;
-}
-.name button{
-    width: 169px;
-    height: 56px;
-    top: 428px;
-    left: 636px;
-    border-radius: 4px;
-    padding: 16px, 32px, 16px, 32px;
-    gap: 10px;
-}
-
-/*Секція 2*/
-.descreption{
-    list-style-type: none;
-}
-.descreption li{
-    color: #434455;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 2%;
-        list-style-type: none;
-}
-.descreption h3{
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-        letter-spacing: 3%;
-    color: #2E2F42;
-}
-
-/*Секція 3*/
-.doing,
-.team{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 2%;
-    text-align: center;
-    color: #2E2F42;  
-}
-.images{
-    list-style-type: none;   
-}
-.address-list{
-
-}
-.address-list.mail{
+.blank .blank_name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none 
+    color: #2e2f42;
+
 }
-.address-list.mail:hover,
-.address-list.mail:focus{
+.link{
+    text-decoration:none;
+}
+.blank .blank_name:hover,
+.blank .blank_name:focus{
+    color: #404bb;
+}
+
+
+
+.information{
+    font-style: normal;
+}
+.address{
+    list-style: none;
+}
+.contact{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #434455;
+}
+.contact:hover,
+.contact:focus{
     color: #404bbf;
-}
-/*Ceкция 4*/
-.foursection{
-    background-color: #F4F4FD;
-}
-.people{
-    list-style-type: none;
-    text-align: center;
-}
-.people h3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: #2E2F42;
-}
-.people p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: #434455;
-}
-
-/*Footer*/
-.of{
-
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: 3%;
-    text-transform: uppercase;
-    color: #4D5AE5;
-}
-.of .part_of{
-    color: #F4F4FD;
-}
-footer{
-    background-color: #2E2F42;
-}
-footer p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: #F4F4FD;
-}
-.photo{
-    list-style-type: none;    
-}
-.photo h3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: #2E2F42;
-}
-.photo p{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 2%;
-    color: #434455;
-}
-.main_buttons{
-    list-style-type: none;   
-    text-align: center;
-}
-.buttons{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 4%;
-    color: #4D5AE5;
-    background-color: #E7E9FC
-    ;
-} 
-.part_buttons{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 4%;
-    color: #FFFFFF;
-    background-color: #404BBF; 
 }
