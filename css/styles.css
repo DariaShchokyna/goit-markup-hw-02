@@ -173,3 +173,42 @@ color: #404bbf;
     color:  #F4F4FD;
     letter-spacing: 0.02em;
 }
+/* Portfolio */
+.one_section{
+    list-style: none;
+
+}
+.buttons_name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+.main_buttons .buttons_name:hover,
+.main_buttons .buttons_name:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.photo{
+    list-style: none;
+}
+.spusok{
+    text-decoration: none;
+}
+.head{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.photo_paragrafe{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
