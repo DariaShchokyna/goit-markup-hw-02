@@ -1,23 +1,64 @@
+body{
+    font-family:'Roboto';
+}
+
 /*header*/
 .logo{
-    font-weight: 700;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
+    width: 115px;
+    line-height: 24px;
     text-transform: uppercase;
     color: #4D5AE5;
 }
 .logo .part_logo{
     color: #2E2F42;
 }
-.blok,
+.blok{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        width: 115px;
+        line-height: 24px;
+        list-style-type: none;
+    
+    }
 .address {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
     list-style-type: none;
-
 }
 
 /*Cекція 1*/
 .name{
     text-align: center;
-    color:white;
-    background-color: #2E2F42;
+        background-color: #2E2F42;
+        color: #FFFFFF;
+}
+.name h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+    width: 496px;
+    height: 120px;
+    top: 260px;
+    left: 472px;
+}
+.name button{
+    width: 169px;
+    height: 56px;
+    top: 428px;
+    left: 636px;
+    border-radius: 4px;
+    padding: 16px, 32px, 16px, 32px;
+    gap: 10px;
 }
 
 /*Секція 2*/
@@ -26,14 +67,27 @@
 }
 .descreption li{
     color: #434455;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 2%;
+        list-style-type: none;
 }
 .descreption h3{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3%;
     color: #2E2F42;
 }
 
 /*Секція 3*/
 .doing,
 .team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 2%;
     text-align: center;
     color: #2E2F42;  
 }
@@ -50,15 +104,28 @@
     text-align: center;
 }
 .people h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
     color: #2E2F42;
 }
 .people p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
     color: #434455;
 }
 
 /*Footer*/
 .of{
-    font-weight: 700;
+
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 3%;
     text-transform: uppercase;
     color: #4D5AE5;
 }
@@ -69,5 +136,31 @@ footer{
     background-color: #2E2F42;
 }
 footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
     color: #F4F4FD;
+}
+.photo{
+    list-style-type: none;    
+}
+.photo h3{
+    color: #2E2F42;
+}
+.photo p{
+    color: #434455;
+}
+.main_buttons{
+    list-style-type: none;   
+    text-align: center;
+}
+.buttons{
+    color: #4D5AE5;
+    background-color: #E7E9FC
+    ;
+} 
+.part_buttons{
+    color: #FFFFFF;
+    background-color: #404BBF; 
 }
