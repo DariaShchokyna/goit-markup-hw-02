@@ -23,11 +23,18 @@ body{
     color: #4D5AE5;
 }
 .logo link{
+    font-family: "Raleway", sans-serif
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
     text-decoration: none
     color: #2E2F42;
 }
 .list{
     list-style: none}
+.line{
+    text-decoration: none
+}
 .blank{
         font-weight: 500;
         font-size: 16px;
@@ -36,11 +43,20 @@ body{
         width: 115px;
         line-height: 24px;
         list-style-type: none;
-    
     }
+.blank-list.list{
+    color: #2e2f42;
+    text-decoration:none
+}
+.blank-list.list:hover{
+    color: #404bbf 
+}
+.blank-list.list:focus{
+    color: #404bbf;
+}
 .address {
     font-weight: 400;
-    font-size: 16px;
+    font-size: normal;
     line-height: 24px;
     letter-spacing: 2%;
     list-style-type: none;
@@ -105,7 +121,18 @@ body{
 .images{
     list-style-type: none;   
 }
+.address-list{
 
+}
+.address-list.mail{
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none 
+}
+.address-list.mail:hover,
+.address-list.mail:focus{
+    color: #404bbf;
+}
 /*Ceкция 4*/
 .foursection{
     background-color: #F4F4FD;
