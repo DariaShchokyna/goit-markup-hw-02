@@ -1,4 +1,10 @@
+:root {
+    --main-color: #434455;
+}
+
 body{
+    color: #434455;
+    background-color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
 }
 
