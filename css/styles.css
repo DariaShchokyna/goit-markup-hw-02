@@ -58,8 +58,8 @@ body{
     letter-spacing: 0.02em;
     color:  #434455;
 }
-.contact:hover,
-.contact:focus{
+.address .contact:hover,
+.address .contact:focus{
     color: #404bbf;
 }
 .name{
@@ -86,11 +86,11 @@ body{
 .osnova_button:focus{
     background-color: #404BBF;
 }
-.blank_name link:hover,
-.blank_name link:focus{
+.blank .blank_name:hover,
+.blank .blank_name:focus{
 color: #404bbf;
 }
-.descreption{
+.descreption_name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
