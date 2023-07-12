@@ -196,7 +196,7 @@ color: #404bbf;
 .photo{
     list-style: none;
 }
-.photo .photo_list{
+.photo.photo_list{
     text-decoration: none;
 }
 .head{
